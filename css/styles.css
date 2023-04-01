@@ -239,8 +239,13 @@ a {
   --y: -50%;
 }
 
-/*.gallery > img:nth-of-type(8) {--i:8;--x:  50%;--y:-50%;}
-.gallery > img:nth-of-type(9) {--i:9;--x: -50%;--y:-50%;}
+.gallery>img:nth-of-type(8) {
+  --i: 8;
+  --x: 50%;
+  --y: -50%;
+}
+
+/*.gallery > img:nth-of-type(9) {--i:9;--x: -50%;--y:-50%;}
 
 .gallery > input:checked ~ img {
   transform: scale(1);
