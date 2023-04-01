@@ -223,8 +223,11 @@ a {
   --y: 50%;
 }
 
-/*.gallery > img:nth-of-type(5) {--i:5 }
-.gallery > img:nth-of-type(6) {--i:6;--x: -50%;--y:50%; }
+.gallery>img:nth-of-type(5) {
+  --i: 5
+}
+
+/*.gallery > img:nth-of-type(6) {--i:6;--x: -50%;--y:50%; }
 .gallery > img:nth-of-type(7) {--i:7;--x: 150%;--y:-50%;}
 .gallery > img:nth-of-type(8) {--i:8;--x:  50%;--y:-50%;}
 .gallery > img:nth-of-type(9) {--i:9;--x: -50%;--y:-50%;}
