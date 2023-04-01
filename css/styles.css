@@ -165,9 +165,10 @@ a {
   line-height: 100%;
 }
 
-/*.gallery {
-  --s: 130px; /* control the size of the images*/
-/*
+.gallery {
+  --s: 130px;
+  /* control the size of the images*/
+  /*
   display: grid;
   grid-template-columns: repeat(3,auto);
   gap: 5px;
