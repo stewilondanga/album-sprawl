@@ -251,12 +251,13 @@ a {
   --y: -50%;
 }
 
-/*.gallery > input:checked ~ img {
+.gallery>input:checked~img {
   transform: scale(1);
   filter: brightness(1);
   pointer-events: initial;
 }
-.gallery > input:checked {
+
+/*.gallery > input:checked {
   transform: translateY(calc(1.75*var(--s))) scale(.5) rotate(45deg);
   --b: 70%;
 }
